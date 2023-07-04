@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet"href="/custom.css"/>
+</head>
+<body>
+    <div class="main">
+        <h2>Round 1</h2> <h2><div class="timer" id="timer">00:00:00.00</div></h2>
+        <div id="box">
+            <h2 id="quesBox"> 1This is dummy</h2>
+            <div class="row">
+                <input class="options" id="option1" type="radio" value="a" name="option"/>
+                <label for=""> option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option2" type="radio" value="b" name="option"/>
+                <label for=""> option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option3" type="radio" value="c" name="option"/>
+                <label for=""> option 1</label>
+            </div>
+            <div class="row">
+                <input class="options" id="option4" type="radio" value="d" name="option"/>
+                <label for=""> option 1</label>
+            </div>
+        <div class="btn">
+            <button class="bt" onclick="submitQuiz()">
+                submit
+            </button>
+        </div>
+        </div>
+        <div class="rating">
+            <input type="radio" id="star5" name="rating" value="5">
+            <label for="star5"></label>
+            <input type="radio" id="star4" name="rating" value="4">
+            <label for="star4"></label>
+            <input type="radio" id="star3" name="rating" value="3">
+            <label for="star3"></label>
+            <input type="radio" id="star2" name="rating" value="2">
+            <label for="star2"></label>
+            <input type="radio" id="star1" name="rating" value="1">
+            <label for="star1"></label>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
